@@ -1,0 +1,34 @@
+/* PostPage.css */
+
+/* Container Styling */
+.post-container {
+    padding: 20px;
+  }
+  
+  /* Button Styles for Post Type */
+  .post-type-buttons {
+    margin-bottom: 20px;
+  }
+  
+  /* Input & TextArea Styling */
+  .input-field {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* Image Upload Section */
+  .image-upload {
+    margin-bottom: 10px;
+  }
+  
+  .image-name {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Post Button */
+  .post-button {
+    margin-top: 20px;
+  }
+  

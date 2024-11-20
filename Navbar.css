@@ -1,0 +1,34 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Distribute items across the container */
+    padding: 10px 20px; /* Add padding for spacing */
+    background-color: #000000; /* Set background color to black */
+    border-bottom: 2px solid #ccc; /* Optional: Add a bottom border for separation */
+    font-weight: bold; /* Make the font bold */
+  }
+  
+  .navbar-left {
+    flex: 1; /* Ensure the left side links take up space */
+    display: flex;
+    align-items: center; /* Align vertically */
+    color: white; /* Set text color to white */
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center; /* Align vertically */
+  }
+  
+  .link {
+    text-decoration: none;
+    margin: 0 15px; /* Space between the links */
+    color: white; /* Link color set to white for contrast on black background */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Make the links bold */
+  }
+  
+  .link:hover {
+    color: #007bff; /* Optional: Change color on hover */
+  }
+  
